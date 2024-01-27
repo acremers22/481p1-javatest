@@ -144,11 +144,13 @@ public class ChartTest1 {
         */
 
         // ...and save it to a PNG image
+	    /*
         OutputStream out = new BufferedOutputStream(new FileOutputStream(
                 new File("output1.png")));
         ChartUtils.writeBufferedImageAsPNG(out, img);
         out.close();
         System.out.println("output1.png created"); 
+	    */
 
         
     }
